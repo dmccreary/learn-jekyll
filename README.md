@@ -1,4 +1,5 @@
-# Learn to use Jekyll to publish static web sites
+# Learn GitHub Pages Jekyll
+Learn to use GitHub Pages and Jekyll to publish static web sites
 [Github Pages](https://dmccreary.github.io/learn-jekyll)
 ## Basics
 ## Navigation
@@ -23,3 +24,10 @@ Could not locate Gemfile or .bundle/ directory
 
 This worked:
 ```jekyll new . --force```
+
+$ bundle update github-pages
+Could not find gem 'github-pages'.
+
+Running `bundle update` will rebuild your snapshot from scratch, using only
+the gems in your Gemfile, which may resolve the conflict.
+
